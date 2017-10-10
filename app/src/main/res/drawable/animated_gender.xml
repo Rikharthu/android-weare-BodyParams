@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:drawable="@drawable/ic_male_vec">
+    <target
+        android:name="body"
+        android:animation="@anim/transgender_animation" />
+    <target
+        android:name="head"
+        android:animation="@anim/gender_color_animation" />
+    <target
+        android:name="body"
+        android:animation="@anim/gender_color_animation" />
+</animated-vector>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.example.rikharthu.myparameters.MySwitchPreference
+        android:defaultValue="false"
+        android:key="pref_gender"
+        android:title="Male" />
+    <ListPreference
+        android:defaultValue="M"
+        android:dialogTitle="Your body size"
+        android:entries="@array/pref_body_sizes"
+        android:entryValues="@array/pref_body_sizes"
+        android:key="pref_body_size"
+        android:title="Body Size" />
+    <ListPreference
+        android:defaultValue="43"
+        android:dialogTitle="Your foot size"
+        android:entries="@array/pref_male_foot_sizes"
+        android:entryValues="@array/pref_male_foot_sizes"
+        android:key="pref_foot_size"
+        android:title="Foot Size" />
+</PreferenceScreen>
